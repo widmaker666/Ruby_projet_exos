@@ -4,7 +4,7 @@ puts "Donne moi ton année de naissance"
 born = gets.chomp.to_i
 i = Time.now.year
 age = 0
-while born < i
+while born <= i
     puts "en #{born} tu auras #{age}"
     age = age + 1  
     born = born + 1 
