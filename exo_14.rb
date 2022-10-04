@@ -1,4 +1,5 @@
 tableau = [] 
+
 for num in 1..50 do
 if num.even?
     if num < 10 
@@ -7,7 +8,7 @@ if num.even?
         tableau = tableau + ["jean.dupont.#{num}@email.fr"]
     end  
 else    
-    tableau =  tableau
+    tableau = tableau
 end 
 end  
 
